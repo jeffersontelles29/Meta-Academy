@@ -1,0 +1,32 @@
+// ===================== Nabvar:
+.navbar {
+  margin-top: 1rem;
+  background-color: $color-primaria !important;
+  
+  &-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &-brand {
+    font-family: $fonte-secundaria;
+    font-size: 1.5;
+    font-weight: 700;
+    margin-left: 1rem;
+  }
+
+  .fas {
+    font-size: 2rem;
+    color: $color-secundaria;
+  }
+}
+
+// Links
+.nav-link {
+  color: $color-light !important;
+}
+
+// Dropdown-menu
+.dropdown-menu {
+  border-top: 7px solid $color-secundaria;
+}
