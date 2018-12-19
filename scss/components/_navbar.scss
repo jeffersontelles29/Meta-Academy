@@ -1,7 +1,7 @@
 // ===================== Nabvar:
 .navbar {
-  margin-top: 1rem;
-  background-color: $color-primaria !important;
+  background-color: $color-secundaria !important;
+  border-bottom: 2px solid $color-primaria;
   
   &-logo {
     display: flex;
@@ -12,21 +12,24 @@
     font-family: $fonte-secundaria;
     font-size: 1.5;
     font-weight: 700;
+    text-transform: uppercase;
     margin-left: 1rem;
   }
 
   .fas {
     font-size: 2rem;
-    color: $color-secundaria;
+    color: $color-primaria;
   }
 }
 
 // Links
 .nav-link {
+  font-weight: 700;
   color: $color-light !important;
 }
 
 // Dropdown-menu
 .dropdown-menu {
-  border-top: 7px solid $color-secundaria;
+  margin-top: 1rem;
+  border-top: 7px solid $color-primaria;
 }

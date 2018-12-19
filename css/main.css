@@ -9,9 +9,21 @@ body {
   font-weight: 100%;
   line-height: 1.5; }
 
+img {
+  width: 100%; }
+
+.carousel-inner {
+  width: 100%;
+  background-size: cover; }
+
+.fas {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #37F0E1; }
+
 .navbar {
-  margin-top: 1rem;
-  background-color: #068587 !important; }
+  background-color: #383838 !important;
+  border-bottom: 2px solid #37F0E1; }
   .navbar-logo {
     display: flex;
     align-items: center; }
@@ -19,13 +31,16 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 1.5;
     font-weight: 700;
+    text-transform: uppercase;
     margin-left: 1rem; }
   .navbar .fas {
     font-size: 2rem;
-    color: #4FB99F; }
+    color: #37F0E1; }
 
 .nav-link {
+  font-weight: 700;
   color: #FFFFFF !important; }
 
 .dropdown-menu {
-  border-top: 7px solid #4FB99F; }
+  margin-top: 1rem;
+  border-top: 7px solid #37F0E1; }
