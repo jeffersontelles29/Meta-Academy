@@ -1,0 +1,26 @@
+// ========================= Services:
+.services {
+  padding: 3rem;
+  background: $color-light-2;
+}
+
+.card {
+  background: $color-secundaria;
+  color: $color-light;
+
+  &-img-top {
+    padding: .5rem;
+  }
+
+  &-header {
+    background: $color-secundaria;
+    color: $color-light;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &-body {
+    background: $color-options2;
+    color: $color-light;
+  }
+}

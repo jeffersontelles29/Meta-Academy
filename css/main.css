@@ -58,3 +58,21 @@ img {
 .dropdown-menu {
   margin-top: 1rem;
   border-top: 7px solid #37F0E1; }
+
+.services {
+  padding: 3rem;
+  background: #eeebeb; }
+
+.card {
+  background: #383838;
+  color: #FFFFFF; }
+  .card-img-top {
+    padding: .5rem; }
+  .card-header {
+    background: #383838;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .card-body {
+    background: #FF005F;
+    color: #FFFFFF; }
