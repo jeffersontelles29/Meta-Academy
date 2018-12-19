@@ -16,6 +16,20 @@ img {
   width: 100%;
   background-size: cover; }
 
+.carousel-caption {
+  width: 50rem;
+  background-color: rgba(56, 56, 56, 0.6);
+  color: #FFFFFF;
+  border-left: 7px solid #FF005F;
+  border-radius: 5px; }
+  .carousel-caption h5 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .carousel-caption p {
+    font-size: 1rem;
+    font-weight: 300; }
+
 .fas {
   font-size: 1.5rem;
   font-weight: 700;

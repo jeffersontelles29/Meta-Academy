@@ -4,6 +4,25 @@
   background-size: cover;
 }
 
+.carousel-caption {
+  width: 50rem;
+  background-color: rgba($color-secundaria, 0.6);
+  color: $color-light;
+  border-left: 7px solid $color-options2;
+  border-radius: 5px;
+
+  h5 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+
 // Arrows
 .fas {
   font-size: 1.5rem;
