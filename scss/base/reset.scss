@@ -1,0 +1,12 @@
+// ============== Reset CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $fonte-primaria;
+  font-weight: 100%;
+  line-height: 1.5;
+}
