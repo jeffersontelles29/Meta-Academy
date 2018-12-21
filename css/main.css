@@ -72,8 +72,20 @@ img {
   margin-top: 1rem;
   border-top: 7px solid #37F0E1; }
 
+.planos {
+  padding: 6rem 0; }
+  .planos h3 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; }
+  .planos .card {
+    height: 25rem; }
+    .planos .card-header span {
+      color: #37F0E1; }
+
 .principal {
-  padding: 1rem;
+  padding: 4rem 0;
   text-align: center;
   background: rgba(97, 97, 97, 0.993);
   color: #FFFFFF; }
