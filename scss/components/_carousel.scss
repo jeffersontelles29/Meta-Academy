@@ -8,7 +8,7 @@
   width: 50rem;
   background-color: rgba($color-secundaria, 0.6);
   color: $color-light;
-  border-left: 7px solid $color-options2;
+  border-left: 7px solid $color-primaria;
   border-radius: 5px;
 
   h5 {
@@ -24,9 +24,18 @@
 }
 
 // Arrows
-.fas {
+.carousel-control-prev .fas {
   font-size: 1.5rem;
   font-weight: 700;
-  color: $color-primaria;
+  color: $color-light;
+  background: $color-primaria;
+  padding: .7rem;
+}
+.carousel-control-next .fas {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: $color-light;
+  background: $color-primaria;
+  padding: .7rem;
 }
 

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700");
+.btn-base {
+  background-color: #37F0E1 !important;
+  color: #383838 !important; }
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +24,7 @@ img {
   width: 50rem;
   background-color: rgba(56, 56, 56, 0.6);
   color: #FFFFFF;
-  border-left: 7px solid #FF005F;
+  border-left: 7px solid #37F0E1;
   border-radius: 5px; }
   .carousel-caption h5 {
     font-size: 2.5rem;
@@ -30,10 +34,19 @@ img {
     font-size: 1rem;
     font-weight: 300; }
 
-.fas {
+.carousel-control-prev .fas {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #37F0E1; }
+  color: #FFFFFF;
+  background: #37F0E1;
+  padding: .7rem; }
+
+.carousel-control-next .fas {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #37F0E1;
+  padding: .7rem; }
 
 .navbar {
   background-color: #383838 !important;
@@ -59,9 +72,28 @@ img {
   margin-top: 1rem;
   border-top: 7px solid #37F0E1; }
 
+.principal {
+  padding: 1rem;
+  text-align: center;
+  background: rgba(97, 97, 97, 0.993);
+  color: #FFFFFF; }
+  .principal h2 {
+    font-size: 1.5rem;
+    font-weight: 700; }
+  .principal p {
+    font-size: .8rem;
+    font-style: italic; }
+  .principal-newsletter {
+    margin-top: 2rem;
+    background: #FF005F;
+    border-radius: 5px;
+    padding: 1rem; }
+    .principal-newsletter h3 {
+      text-transform: uppercase; }
+
 .services {
   padding: 3rem;
-  background: #eeebeb; }
+  background: #FFFFFF; }
 
 .card {
   background: #383838;

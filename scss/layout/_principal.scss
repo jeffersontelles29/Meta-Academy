@@ -1,0 +1,28 @@
+.principal {
+  padding: 1rem;
+  text-align: center;
+  background: $color-light-2;
+  color: $color-light;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: .8rem;
+    font-style: italic;
+  }
+
+  // newsletter
+  &-newsletter {
+    margin-top: 2rem;
+    background: $color-options2;
+    border-radius: 5px;
+    padding: 1rem;
+
+    h3 {
+      text-transform: uppercase;
+    }
+  } 
+}
