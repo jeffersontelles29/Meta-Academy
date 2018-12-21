@@ -75,14 +75,17 @@ img {
 .planos {
   padding: 6rem 0; }
   .planos h3 {
-    font-size: 2.1rem;
+    font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: .5rem; }
   .planos .card {
     height: 25rem; }
     .planos .card-header span {
       color: #37F0E1; }
+  .planos-boxes .group-list .fas {
+    margin-right: 1rem; }
 
 .principal {
   padding: 4rem 0;
