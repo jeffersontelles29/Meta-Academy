@@ -72,23 +72,27 @@ img {
   margin-top: 1rem;
   border-top: 7px solid #37F0E1; }
 
-.contatos h3 {
-  font-size: 2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: .5rem; }
-
-.contatos address {
-  margin: 4rem 0;
-  text-align: center; }
-  .contatos address h5 {
-    font-size: 1rem; }
-
-.contatos .formulario {
-  background: #FF005F;
-  color: #FFFFFF;
-  padding: 1rem; }
+.contatos {
+  padding: 4rem 0;
+  background: rgba(97, 97, 97, 0.993);
+  color: #FFFFFF; }
+  .contatos .heading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .5rem;
+    margin-bottom: 7rem; }
+  .contatos address {
+    text-align: center; }
+    .contatos address h5 {
+      font-size: 1rem; }
+  .contatos .formulario {
+    background: #FF005F;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    padding: 1rem; }
 
 .planos {
   padding: 6rem 0; }
