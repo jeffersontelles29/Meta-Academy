@@ -79,6 +79,17 @@ img {
   text-align: center;
   letter-spacing: .5rem; }
 
+.contatos address {
+  margin: 4rem 0;
+  text-align: center; }
+  .contatos address h5 {
+    font-size: 1rem; }
+
+.contatos .formulario {
+  background: #FF005F;
+  color: #FFFFFF;
+  padding: 1rem; }
+
 .planos {
   padding: 6rem 0; }
   .planos h3 {
@@ -112,6 +123,14 @@ img {
     padding: 1rem; }
     .principal-newsletter h3 {
       text-transform: uppercase; }
+
+footer {
+  background: #000;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0; }
 
 .services {
   padding: 3rem;

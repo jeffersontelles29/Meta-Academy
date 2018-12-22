@@ -6,4 +6,18 @@
     text-align: center;
     letter-spacing: .5rem;
   }
+
+  address {
+    margin: 4rem 0;
+    text-align: center;
+    h5 {
+      font-size: 1rem;
+    }
+  }
+
+  .formulario {
+    background: $color-options2;
+    color: $color-light;
+    padding: 1rem;
+  }
 }
