@@ -72,6 +72,13 @@ img {
   margin-top: 1rem;
   border-top: 7px solid #37F0E1; }
 
+.contatos h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .5rem; }
+
 .planos {
   padding: 6rem 0; }
   .planos h3 {
